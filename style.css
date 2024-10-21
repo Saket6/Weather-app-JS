@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* height: 80vh; */
+    max-height: 80vh;
+    background: linear-gradient(100deg,rgb(5, 202, 153),rgb(9, 156, 214));
+    max-width: 90%;
+    /* width: 30%; */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.temp{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.cityname{
+   
+    color: #fff043;
+    font-size: 40px;
+    text-align: center;
+}
+
+.header{
+    margin-top: 30px;
+   flex-direction: row;
+
+}
+.sections{
+    margin-top: 20px;
+}
+.image{
+    height: 100px;
+    width: 120px;
+}
+.search{
+    padding: 16px;
+    height: 1.2rem;
+    width: 100%;
+    font-size: larger;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.last{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row !important;
+}
+.divs
+{
+    padding: 20px;
+}
+
+.btn{
+    font-size: xx-large;
+    background: white;
+    width: 3rem;
+    border-radius: 100px;
+    height: 3rem;
+    /* border-radius: 100px; */
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyWeather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="flex-center">
+    <div class="container flex-center">
+      <div class="header flex-center">
+        <input type="text" id="search" required class="search" />
+        <button type="submit" class="btn" id="btn">🔍</button>
+      </div> 
+      <div class="sections img">
+        <img src="./images/dummy.png" class="image" alt="" />
+      </div>
+      <div class="sections cityname">
+        <h1 class="temp" id="temp">20* c</h1>
+        <h2 class="cityname" id="cityname">Mumbai</h2>
+      </div>
+      <div class="sections last">
+        <div class="divs">
+            <h1 class="" id="humidity">70%</h1>
+            <h2 class="">Humidity</h2>
+        </div>
+        <div class="divs">
+            <h1 id="windspeed">64 km/h</h1>
+            <h2>Wind Speed</h2>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
